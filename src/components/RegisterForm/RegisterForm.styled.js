@@ -11,7 +11,7 @@ const SignUpForm = styled(Form)`
 
   width: 99%;
 
-  background-color: #fefefe;
+  background-color: #525b56;
 
   box-shadow: 0px 8px 12px -4px rgba(50, 88, 130, 0.32);
   border-radius: 15px;

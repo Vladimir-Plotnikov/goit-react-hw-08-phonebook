@@ -14,8 +14,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI',
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
-    color: #252f38;
-    background-color: #e7ecf2;
+    color: #a4978e;
+    background-color: #040c0e;
     font-size: 20px;
   }
 

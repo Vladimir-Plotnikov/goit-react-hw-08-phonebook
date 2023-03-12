@@ -9,10 +9,8 @@ export default function Home() {
           <div>
             <h1>Welcome to Phonebook App</h1>
             <p>
-              Are you looking for a free contact management tool that’ll help
-              you become more productive and speed up the communication process?
-              If yes, then Phonebook is the app for you. It lets you store all
-              your contacts under a single umbrella.
+              Stop using your grandma's old Rolodex and asking your friends to text you their numbers for the tenth time.
+              Now you can organize them yourself and forget them just as easily! But fear not, brave user, for our search function will always be there to save the day. Happy dialing!
             </p>
             <StyledLink to="/register">Get Started</StyledLink>
           </div>
