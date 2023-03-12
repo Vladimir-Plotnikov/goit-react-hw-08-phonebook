@@ -1,0 +1,45 @@
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+.FindContact {
+    width: 400px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.Button {
+    width: 100px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input,
+button {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.InputField {
+    width: 200px;
+}
+
+.inputButton{
+display: flex;
+    flex-direction: column;
+}
+
+.PhoneBook{
+    margin: 20px;
+}
