@@ -32,7 +32,7 @@ const ContactWrapper = styled.div`
   margin: 0 auto;
   width: 99%;
 
-  background-color: #fefefe;
+  background-color: #525b56;
 
   border-radius: 15px;
 
