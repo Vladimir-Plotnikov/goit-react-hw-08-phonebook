@@ -25,8 +25,8 @@ const Button = styled.button`
   font-size: 16px;
   text-align: center;
 
-  color: #010101;
-  background-color: #ededed;
+  color: #525b56;
+  background-color: #132226;
 
   border: 1px solid rgb(200, 200, 200);
   border-radius: 10px;

@@ -35,8 +35,8 @@ const StyledLink = styled(NavLink)`
   }
 
   &.active {
-    color: #fefefe;
-    background-color: #1e1e1e;
+    color: #132226;
+    background-color: #be9063;
   }
 `;
 

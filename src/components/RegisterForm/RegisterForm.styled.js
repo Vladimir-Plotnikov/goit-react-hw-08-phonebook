@@ -72,7 +72,7 @@ const Label = styled.label`
   input:not(:placeholder-shown) ~ & {
     transform: translateY(-35px) scale(0.8);
     color: #010101;
-    background-color: #fefefe;
+    background-color: #525b56;
   }
 `;
 

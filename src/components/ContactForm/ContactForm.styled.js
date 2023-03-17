@@ -11,7 +11,7 @@ const AddContactForm = styled(Form)`
 
   width: 99%;
 
-  background-color: #be9063;
+  background-color: #525b56;
 
   box-shadow: 0px 8px 12px -4px rgba(50, 88, 130, 0.32);
   border-radius: 15px;
@@ -72,7 +72,7 @@ const Label = styled.label`
   input:not(:placeholder-shown) ~ & {
     transform: translateY(-35px) scale(0.8);
     color: #010101;
-    background-color: #fefefe;
+    background-color: #525b56;
   }
 `;
 

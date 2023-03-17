@@ -4,7 +4,7 @@ import { MdModeEdit, MdOutlineDelete } from 'react-icons/md';
 import { useSelector, useDispatch } from 'react-redux';
 import { setModal } from 'redux/modal/slice';
 import { selectModalState } from 'redux/contacts/selectors';
-import { deleteContact } from 'redux/contacts/operations';
+import { deleteContact, editContact } from 'redux/contacts/operations';
 import { Modal } from 'components/Modal';
 import {
   Contact,
