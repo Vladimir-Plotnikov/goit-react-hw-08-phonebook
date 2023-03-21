@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import { HiOutlinePhone, HiOutlineUserCircle } from 'react-icons/hi';
-import { MdModeEdit, MdOutlineDelete } from 'react-icons/md';
+// import { MdModeEdit, MdOutlineDelete } from 'react-icons/md';
+import { MdOutlineDelete } from 'react-icons/md';
 import { useSelector, useDispatch } from 'react-redux';
-import { setModal } from 'redux/modal/slice';
+// import { setModal } from 'redux/modal/slice';
 import { selectModalState } from 'redux/contacts/selectors';
 import { deleteContact } from 'redux/contacts/operations';
 import { Modal } from 'components/Modal';
@@ -31,10 +32,10 @@ export function ContactListItem({ contact: { id, name, number } }) {
           </p>
         </ContactWrapper>
         <ButtonWrapper>
-          <Button type="button" onClick={() => dispatch(setModal(id))}>
+          {/* <Button type="button" onClick={() => dispatch(setModal(id))}>
             <MdModeEdit size={24} />
             <span>Edit</span>
-          </Button>
+          </Button> */}
           <Button type="button" onClick={() => dispatch(deleteContact(id))}>
             <MdOutlineDelete size={24} />
             <span>Delete</span>
