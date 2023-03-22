@@ -1,11 +1,8 @@
 import PropTypes from 'prop-types';
 import { HiOutlinePhone, HiOutlineUserCircle } from 'react-icons/hi';
-// import { MdModeEdit, MdOutlineDelete } from 'react-icons/md';
 import { MdOutlineDelete } from 'react-icons/md';
 import { useDispatch } from 'react-redux';
-// import { setModal } from 'redux/modal/slice';
 import { deleteContact } from 'redux/contacts/operations';
-// import { Modal } from 'components/Modal';
 import {
   Contact,
   ContactWrapper,
