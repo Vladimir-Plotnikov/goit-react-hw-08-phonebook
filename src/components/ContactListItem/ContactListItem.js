@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import { HiOutlinePhone, HiOutlineUserCircle } from 'react-icons/hi';
 // import { MdModeEdit, MdOutlineDelete } from 'react-icons/md';
 import { MdOutlineDelete } from 'react-icons/md';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 // import { setModal } from 'redux/modal/slice';
-import { selectModalState } from 'redux/contacts/selectors';
 import { deleteContact } from 'redux/contacts/operations';
-import { Modal } from 'components/Modal';
+// import { Modal } from 'components/Modal';
 import {
   Contact,
   ContactWrapper,
@@ -15,7 +14,6 @@ import {
 } from './ContactListItem.styled';
 
 export function ContactListItem({ contact: { id, name, number } }) {
-  const modalState = useSelector(selectModalState);
   const dispatch = useDispatch();
 
   return (
@@ -32,17 +30,12 @@ export function ContactListItem({ contact: { id, name, number } }) {
           </p>
         </ContactWrapper>
         <ButtonWrapper>
-          {/* <Button type="button" onClick={() => dispatch(setModal(id))}>
-            <MdModeEdit size={24} />
-            <span>Edit</span>
-          </Button> */}
           <Button type="button" onClick={() => dispatch(deleteContact(id))}>
             <MdOutlineDelete size={24} />
             <span>Delete</span>
           </Button>
         </ButtonWrapper>
       </Contact>
-      {modalState && <Modal />}
     </>
   );
 }
