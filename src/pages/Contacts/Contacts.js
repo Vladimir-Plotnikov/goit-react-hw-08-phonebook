@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector} from 'react-redux';
 import {
   selectFilteredContacts,
   selectIsLoading,
@@ -13,7 +13,6 @@ export default function Contacts() {
   const contacts = useSelector(selectFilteredContacts);
 
   const isLoading = useSelector(selectIsLoading);
-  const dispatch = useDispatch();
 
   return (
     <ContactsSection>
